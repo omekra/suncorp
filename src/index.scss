@@ -1,4 +1,3 @@
-/* google font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
 
 $primary: #004346;
@@ -50,7 +49,7 @@ fieldset {
   min-width: 0;
 }
 
-/* layout */
+/* Layout */
 @mixin mq($breakpoint) {
   @if ($breakpoint == 0) {
     @content;
@@ -84,7 +83,7 @@ fieldset {
   }
 }
 
-/* header */
+/* Header */
 .header {
   background-color: #ffffff;
   border-bottom: solid 1px #dedcd5;
@@ -103,7 +102,7 @@ fieldset {
   }
 }
 
-/* Alert */
+/* Alerts */
 .alert {
   background: #dbeaf1;
   padding: 10px;
@@ -225,7 +224,7 @@ fieldset {
   }
 }
 
-/* Block component */
+/* Buttons */
 .btn {
   display: flex;
   align-items: center;
